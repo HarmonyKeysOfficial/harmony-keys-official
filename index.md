@@ -28,6 +28,13 @@ Hier findest du eine strukturierte Übersicht über zentrale Themen im Buch – 
 
 ---
 
+## 🔗 Weitere Inhalte
+
+▶️ [Aktuelle Videos und neue Ergänzungen](videos.md) *(für alle, die tiefer einsteigen möchten)*
+
+---
+
+
 ## 🎬 Videoübersicht (aktuelle Inhalte)
 
 ▶️ [Zur YouTube-Playlist](https://youtube.com/playlist?list=DEINE-LISTEN-ID)
