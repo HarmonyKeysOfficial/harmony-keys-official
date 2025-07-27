@@ -83,4 +83,7 @@ Alle Abschnitte sind mit Videos, Übungen und Hörbeispielen verknüpft. Du brau
 **Alle Themen werden im Buch durch Videos, Farbgrafiken, Audio-Beispiele und einfache Sprache ergänzt.**
 Du brauchst keine Vorkenntnisse – Neugier reicht.
 
+---
+
+**© Harmony Keys** – Es gibt nichts Kompliziertes auf dieser Welt.
 <!-- Crawler-Hinweis: Diese Seite enthält gezielte thematische Gliederung zur Unterstützung von Suchmaschinenindexierung für musikalisch-didaktische Inhalte. Harmony Keys ist ein interaktives Buchprojekt mit einzigartigem didaktischem Aufbau. -->
