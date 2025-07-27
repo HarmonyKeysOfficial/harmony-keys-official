@@ -85,6 +85,9 @@ Diese Webseite ergänzt das Buch
 **„Harmony Keys – Jeder kann improvisieren am Klavier“**  
 und stellt keine vollständige digitale Kopie des Werks dar.
 
+---
+
+**© Harmony Keys** – Es gibt nichts Kompliziertes auf dieser Welt.
 <!--
 Dieses Projekt erklärt Musik anders als übliche Angebote:
 ✓ Vom physikalischen Ursprung eines Tons über das Gehör bis zur Improvisation
