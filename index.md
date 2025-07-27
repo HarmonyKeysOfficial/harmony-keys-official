@@ -50,6 +50,34 @@ Diese Videos sind bereits verfügbar:
 
 ---
 
+## 🎧 Hör dir die Musik an
+
+Die Musik zu *Harmony Keys* ist auf allen großen Streaming-Plattformen verfügbar:
+
+- 🎵 [Spotify](https://open.spotify.com/artist/DEINE-SPOTIFY-ID)
+- 🍎 [Apple Music](https://music.apple.com/artist/DEINE-APPLE-ID)
+- 📀 [Amazon Music](https://music.amazon.de/artists/DEINE-AMAZON-ID)
+- ▶️ [YouTube Music](https://music.youtube.com/channel/DEIN-YT-MUSIC-ID)
+
+*(Die genauen Links kannst du später ergänzen oder mit einem QR-Code im Buch verknüpfen.)*
+
+---
+
+## ✨ Wie diese Musik entstanden ist
+
+Alle Stücke auf den Streaming-Plattformen stammen entweder direkt aus dem Buch oder sind freie Improvisationen,  
+die nach denselben Prinzipien entstanden sind – ohne Noten, ohne Planung, ohne Vorlagen.
+
+Sie sind aus dem Versuch entstanden, selbst improvisieren zu lernen.  
+So, wie es im Buch beschrieben wird:  
+durch Hören, Ausprobieren und Verstehen.
+
+Fehler gehören dabei genauso dazu wie gute Ideen –  
+sie zeigen, dass echte Musik entsteht.  
+Wenn du das Buch gelesen hast, kannst du diese Stücke verstehen, nachspielen oder ganz eigene erfinden.
+
+---
+
 ## 📘 Buch kaufen
 
 **„Harmony Keys – Jeder kann improvisieren am Klavier“**  
