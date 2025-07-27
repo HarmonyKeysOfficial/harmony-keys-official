@@ -4,7 +4,7 @@ Willkommen auf der offiziellen Begleitseite zum Buch
 **_Harmony Keys – Wie wirklich jeder improvisieren kann am Klavier_**
 
 
-🔗 [Kapitelübersicht öffnen](kapiteluebersicht.md)
+🔗 [Kapiteluebersicht öffnen](kapiteluebersicht.md)
 
 ---
 
