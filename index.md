@@ -77,7 +77,7 @@ Wenn du über Musik nicht nur nachdenken, sondern sie selbst gestalten willst, b
 
 ## 📃 Impressum
 
-**Projektname:** Harmony Keys Project  
+**Projektname:** Harmony Keys 
 **Verantwortlich für den Inhalt:** *(Adresse wird nachgetragen)*  
 **E-Mail:** [harmonykeysproject@proton.me](mailto:harmonykeysproject@proton.me)
 
