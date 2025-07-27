@@ -54,7 +54,7 @@ Diese Videos sind bereits verfügbar:
 
 Die Musik zu *Harmony Keys* ist auf allen großen Streaming-Plattformen verfügbar:
 
-- 🎵 [Spotify](https://open.spotify.com/artist/DEINE-SPOTIFY-ID)
+- 🎵 [Spotify](https://open.spotify.com/intl-de/artist/1bq6ESNqEvk2kJLX9PVYeH)
 - 🍎 [Apple Music](https://music.apple.com/artist/DEINE-APPLE-ID)
 - 📀 [Amazon Music](https://music.amazon.de/artists/DEINE-AMAZON-ID)
 - ▶️ [YouTube Music](https://music.youtube.com/channel/DEIN-YT-MUSIC-ID)
