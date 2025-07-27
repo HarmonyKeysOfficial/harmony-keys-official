@@ -15,7 +15,7 @@
 
 # 🎹 Harmony Keys – Jeder kann improvisieren am Klavier
 
-[Startseite](index.md) | [🎬 Videos](videos.md) | [📚 Themenübersicht](themenuebersicht.md)
+[Startseite](index.md) | [📚 Themenübersicht](themenuebersicht.md) | [🎬 Videos](videos.md) | [📘 Buch kaufen](#buch-kaufen)
 
 ---
 
@@ -47,6 +47,16 @@ Diese Videos sind bereits verfügbar:
 💡 Weitere Inhalte folgen in Kürze.
 
 ▶️ [Weitere Videos & neue Ergänzungen ansehen](videos.md)
+
+---
+
+## 📘 Buch kaufen
+
+**„Harmony Keys – Jeder kann improvisieren am Klavier“**  
+Das vollständige Buch mit allen Erklärungen, Grafiken, Übungen und QR-Codes ist als hochwertiges Taschenbuch erhältlich:
+
+🛒 [Buch auf Amazon ansehen (Taschenbuch)](https://www.amazon.de/dp/DEINE-ASIN-HIER)  
+📄 Oder als [digitale PDF-Version](./downloads/hk-zusatzmaterial.pdf) *(z. B. für Tablet oder PC)*
 
 ---
 
