@@ -65,8 +65,8 @@ Hier findest du eine Auswahl von Video-Inhalten, die Theorie und Praxis direkt e
 
 - Diese Seite wird regelmäßig erweitert.
 - Alle Videos sind mit dem Buch verknüpft – über QR-Codes oder Kapitelbezüge.
-- Weitere Inhalte folgen
+- Weitere Inhalte folgen bald: z. B. zu Kirchentonarten, Patterns, Hörübungen, kreativen Spielideen u. v. m.
 
 ---
 
-**© Harmony Keys** – Musik verstehen, ohne kompliziert zu denken.
+**© Harmony Keys** – Es gibt nichts Kompliziertes auf dieser Welt.
