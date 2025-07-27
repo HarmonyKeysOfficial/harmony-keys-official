@@ -35,3 +35,17 @@ Lesezeichen setzen lohnt sich!
 
 **Danke, dass du mit uns gemeinsam Musik neu entdeckst.**  
 Bleib kreativ – bleib dran. 🎶
+
+---
+
+## 📃 Impressum
+
+Harmony Keys Project  
+Verantwortlich für den Inhalt:  
+*(Adresse wird nachgetragen)*
+
+📧 E-Mail: [harmonykeysproject@proton.me](mailto:harmonykeysproject@proton.me)
+
+Diese Webseite dient ausschließlich als ergänzende Plattform zum Buch  
+**„Harmony Keys – Wie wirklich jeder improvisieren kann am Klavier“**.
+
