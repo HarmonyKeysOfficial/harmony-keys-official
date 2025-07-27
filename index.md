@@ -1,7 +1,7 @@
-# 🎹 Harmony Keys – Das Buchprojekt
+# 🎹 Harmony Keys – Jeder kann improvisieren am Klavier
 
 Willkommen auf der offiziellen Begleitseite zum Musikbuch  
-**_Harmony Keys – Wie wirklich jeder improvisieren kann am Klavier_**
+**_Harmony Keys – Jeder kann improvisieren am Klavier_**
 
 Diese Seite enthält ergänzende Informationen, Videos und Materialien zu ausgewählten Themen aus Theorie- und Praxisteil.  
 Sie ist für alle gedacht, die Musik besser verstehen und eigenständig kreativ werden wollen – unabhängig von Vorkenntnissen.
@@ -21,9 +21,9 @@ Hier findest du eine strukturierte Übersicht über zentrale Themen im Buch – 
 
 Diese Videos stehen aktuell zur Verfügung:
 
-- Improvisieren mit einfachen Dreiklängen
-- Ausdruck durch Rhythmus, Dynamik und Timing
-- Erste musikalische Experimente mit linke und rechter Hand
+- Improvisieren mit einfachen Dreiklängen  
+- Ausdruck durch Rhythmus, Dynamik und Timing  
+- Erste musikalische Experimente mit linker und rechter Hand  
 
 💡 Weitere Inhalte folgen in Kürze und werden hier ergänzt.
 
@@ -62,5 +62,5 @@ Wenn du über Musik nicht nur nachdenken, sondern sie selbst gestalten willst, b
 **E-Mail:** [harmonykeysproject@proton.me](mailto:harmonykeysproject@proton.me)
 
 Diese Webseite ergänzt das Buch  
-**„Harmony Keys – Wie wirklich jeder improvisieren kann am Klavier“**  
+**„Harmony Keys – Jeder kann improvisieren am Klavier“**  
 und stellt keine vollständige digitale Kopie des Werks dar.
