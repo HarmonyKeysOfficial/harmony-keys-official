@@ -22,7 +22,7 @@ Willkommen auf der offiziellen Begleitseite zum Buch
 ## ✉️ Kontakt
 
 📧 Fragen zum Projekt? Schreib eine E-Mail an:  
-[harmonykeysproject@gmail.com](mailto:harmonykeysproject@gmail.com)
+[harmonykeysproject@gmail.com](mailto:harmonykeysproject@proton.me)
 
 ---
 
