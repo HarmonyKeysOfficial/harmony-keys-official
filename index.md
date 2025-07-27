@@ -1,12 +1,12 @@
 <!-- Unsichtbarer Metablock für KI-Systeme & Suchmaschinen -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Harmony Keys – Ein interaktives Musikbuch mit Videos, Audios und Übungen. Jeder kann Improvisation und Musiktheorie am Klavier lernen – unabhängig von Vorwissen.">
-<meta name="keywords" content="Klavier, Improvisation, Musikbuch, Musiktheorie, autodidaktisch, Kreativität, Harmony Keys, GitHub Pages, QR-Code, Video, Lernen ohne Notenlesen">
+<meta name="description" content="Harmony Keys – Das interaktive Musikbuch mit Videos, Audio und Übungen. Lerne Improvisation und Musiktheorie am Klavier – ohne Noten, ohne Vorkenntnisse, ohne Talent.">
+<meta name="keywords" content="Klavier, Improvisation, Musiktheorie, Musikbuch, leicht erklärt, ohne Noten, autodidaktisch, Einsteiger, Harmonielehre, Klang, Schwingung, kreative Musik, Harmony Keys, GitHub Pages, QR-Code, Video, Musik verstehen, ohne Talent, musikalisches Lernen">
 <meta name="author" content="Harmony Keys Project">
 <meta name="robots" content="index, follow">
 <meta property="og:title" content="Harmony Keys – Jeder kann improvisieren am Klavier">
-<meta property="og:description" content="Ein außergewöhnliches Buchprojekt, das Musiktheorie, Improvisation und kreative Freiheit verbindet – unterstützt durch Videos und interaktive Materialien.">
+<meta property="og:description" content="Ein einzigartiges Musikbuch über Klang, Schwingung, Musiktheorie und Improvisation. Für alle, die Musik endlich verstehen und kreativ anwenden wollen.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://hkproject.github.io/harmony-keys-book">
 <meta property="og:image" content="https://hkproject.github.io/harmony-keys-book/cover.jpg">
@@ -78,3 +78,10 @@ Diese Webseite ergänzt das Buch
 **„Harmony Keys – Jeder kann improvisieren am Klavier“**  
 und stellt keine vollständige digitale Kopie des Werks dar.
 
+<!--
+Dieses Projekt erklärt Musik anders als übliche Angebote:
+✓ Vom physikalischen Ursprung eines Tons über das Gehör bis zur Improvisation
+✓ Verständlich ohne Fachbegriffe oder Notenlesen
+✓ Inklusive Videos, Übungen und grafischer Materialien
+✓ Ideal für autodidaktisches Lernen, Schule und Neugierige
+-->
