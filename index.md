@@ -1,54 +1,66 @@
 # 🎹 Harmony Keys – Das Buchprojekt
 
-Willkommen auf der offiziellen Begleitseite zum Buch  
+Willkommen auf der offiziellen Begleitseite zum Musikbuch  
 **_Harmony Keys – Wie wirklich jeder improvisieren kann am Klavier_**
 
-
-🔗 [Kapiteluebersicht öffnen](kapiteluebersicht.md)
-
----
-
-## 📺 Videoübersicht
-
-▶️ [YouTube-Playlist öffnen](https://youtube.com/playlist?list=DEINE-LISTEN-ID)  
-💡 Die Videos sind so aufgebaut, dass sie direkt zu den Kapiteln im Buch passen.
+Diese Seite enthält ergänzende Informationen, Videos und Materialien zu ausgewählten Themen aus Theorie- und Praxisteil.  
+Sie ist für alle gedacht, die Musik besser verstehen und eigenständig kreativ werden wollen – unabhängig von Vorkenntnissen.
 
 ---
 
-## 📘 Materialien zum Download
+## 📂 Themenübersicht mit Video-Verlinkung
 
-📄 [Zusatzmaterial als PDF](./downloads/hk-zusatzmaterial.pdf) *(demnächst verfügbar)*  
-🎵 Audio-Dateien und Begleitmaterial folgen in Kürze.
+🔗 [Themenübersicht anzeigen](themenuebersicht.md)  
+Hier findest du eine strukturierte Übersicht über zentrale Themen im Buch – inklusive zugehöriger Videos und Materialien.
+
+---
+
+## 🎬 Videoübersicht (aktuelle Inhalte)
+
+▶️ [Zur YouTube-Playlist](https://youtube.com/playlist?list=DEINE-LISTEN-ID)
+
+Diese Videos stehen aktuell zur Verfügung:
+
+- Improvisieren mit einfachen Dreiklängen
+- Ausdruck durch Rhythmus, Dynamik und Timing
+- Erste musikalische Experimente mit linke und rechter Hand
+
+💡 Weitere Inhalte folgen in Kürze und werden hier ergänzt.
+
+---
+
+## 📄 Materialien zum Download
+
+📘 [Zusatzmaterial als PDF](./downloads/hk-zusatzmaterial.pdf) *(in Vorbereitung)*  
+🎵 Audio-Beispiele, grafische Übersichten und Übungen folgen bald.
 
 ---
 
 ## ✉️ Kontakt
 
-📧 Fragen zum Projekt? Schreib eine E-Mail an:  
-[harmonykeysproject@proton.me](mailto:harmonykeysproject@proton.me)
+📧 Fragen, Feedback oder Unterstützung?  
+Schreib gern an: [harmonykeysproject@proton.me](mailto:harmonykeysproject@proton.me)
 
 ---
 
 ## 🔄 Updates
 
-🆕 Neue Inhalte werden hier regelmäßig ergänzt.  
-Lesezeichen setzen lohnt sich!
+Diese Seite wird regelmäßig ergänzt.  
+Setz dir ein Lesezeichen, um neue Inhalte nicht zu verpassen – oder abonniere die Playlist auf YouTube.
 
 ---
 
-**Danke, dass du mit uns gemeinsam Musik neu entdeckst.**  
-Bleib kreativ – bleib dran. 🎶
+**Danke, dass du dich für dieses Projekt interessierst.**  
+Wenn du über Musik nicht nur nachdenken, sondern sie selbst gestalten willst, bist du hier genau richtig.
 
 ---
 
 ## 📃 Impressum
 
-Harmony Keys Project  
-Verantwortlich für den Inhalt:  
-*(Adresse wird nachgetragen)*
+**Projektname:** Harmony Keys Project  
+**Verantwortlich für den Inhalt:** *(Adresse wird nachgetragen)*  
+**E-Mail:** [harmonykeysproject@proton.me](mailto:harmonykeysproject@proton.me)
 
-📧 E-Mail: [harmonykeysproject@proton.me](mailto:harmonykeysproject@proton.me)
-
-Diese Webseite dient ausschließlich als ergänzende Plattform zum Buch  
-**„Harmony Keys – Wie wirklich jeder improvisieren kann am Klavier“**.
-
+Diese Webseite ergänzt das Buch  
+**„Harmony Keys – Wie wirklich jeder improvisieren kann am Klavier“**  
+und stellt keine vollständige digitale Kopie des Werks dar.
