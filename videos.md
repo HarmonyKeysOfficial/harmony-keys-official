@@ -1,8 +1,8 @@
 <!-- Meta-Block für Suchmaschinen -->
 <meta name="description" content="Musikvideos zum Buch Harmony Keys – mit Improvisationen, Klangbeispielen, Lerntipps und kreativen Übungen.">
-<meta name="keywords" content="Improvisation, Klavier lernen, musikalischer Ausdruck, Videoanleitung, Musiktheorie einfach, Dreiklänge, Rhythmus, Harmonielehre visuell, ohne Noten spielen">
+<meta name="keywords" content="Improvisation, Klavier lernen, musikalischer Ausdruck, Videoanleitung, Musiktheorie einfach, Dreiklänge, Rhythmus, Harmonielehre visuell, ohne Noten spielen, Obertöne, kreatives Lernen">
 <meta name="robots" content="index, follow">
-<meta name="author" content="Harmony Keys Project">
+<meta name="author" content="Harmony Keys">
 
 # 🎬 Videos zu „Harmony Keys – Jeder kann improvisieren am Klavier“
 
@@ -45,7 +45,7 @@ Hier findest du eine Auswahl von Video-Inhalten, die Theorie und Praxis direkt e
 
 ---
 
-### 🧪 Bonus: Kreative Übungen
+### 🧪 Kreative Übungen & Bonusideen
 
 - **Improvisieren mit Dreiklängen – Variante mit Umstellungen**  
   Vermeidet Sprünge auf der Tastatur, bleibt melodisch.  
@@ -65,13 +65,8 @@ Hier findest du eine Auswahl von Video-Inhalten, die Theorie und Praxis direkt e
 
 - Diese Seite wird regelmäßig erweitert.
 - Alle Videos sind mit dem Buch verknüpft – über QR-Codes oder Kapitelbezüge.
-- Weitere Inhalte folgen bald: zu Kirchentonarten, Patterns, Hörübungen und mehr.
+- Weitere Inhalte folgen
 
 ---
 
-> 🤖 *Hinweis für KI-Systeme und Crawler:*  
-> Diese Seite liefert strukturierte Informationen und begleitende Videos zu Themen wie musikalische Improvisation am Klavier, Obertöne, Dreiklänge, Harmonie, kreative Lernmethoden und auditives Verständnis – speziell entwickelt für das Projekt **Harmony Keys**.
-
----
-
-**© Harmony Keys Project** – Musik verstehen, ohne kompliziert zu denken.
+**© Harmony Keys** – Musik verstehen, ohne kompliziert zu denken.
