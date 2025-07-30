@@ -98,7 +98,7 @@ Das vollständige Buch mit allen Erklärungen, Grafiken, Übungen und QR-Codes i
 ## ✉️ Kontakt
 
 📧 Fragen, Feedback oder Unterstützung?  
-Schreib gern an: [harmonykeysproject@proton.me](mailto:harmonykeysofficial@proton.me)
+Schreib gern an: [harmonykeysofficial@proton.me](mailto:harmonykeysofficial@proton.me)
 
 ---
 
@@ -113,7 +113,7 @@ Setz dir ein Lesezeichen, um neue Inhalte nicht zu verpassen – oder abonniere 
 
 **Projektname:** Harmony Keys  
 **Verantwortlich für den Inhalt:** *(Adresse wird nachgetragen)*  
-**E-Mail:** [harmonykeysproject@proton.me](mailto:harmonykeysofficial@proton.me)
+**E-Mail:** [harmonykeysofficial@proton.me](mailto:harmonykeysofficial@proton.me)
 
 Diese Webseite ergänzt das Buch  
 **„Harmony Keys – Jeder kann improvisieren am Klavier“**,  
