@@ -1,147 +1,25 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Passwortgeschützte Updates – Harmony Keys</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      background-color: #f4f8fb;
-      color: #333;
-      padding: 2em;
-    }
-    .hidden {
-      display: none;
-    }
-    .login-box {
-      max-width: 400px;
-      margin: 100px auto;
-      padding: 2em;
-      border-radius: 12px;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    input[type="password"] {
-      width: 100%;
-      padding: 0.5em;
-      margin-top: 1em;
-      margin-bottom: 1em;
-      font-size: 1em;
-    }
-    button {
-      padding: 0.5em 1em;
-      font-size: 1em;
-      background-color: #4a90e2;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-    .updates {
-      max-width: 800px;
-      margin: 2em auto;
-    }
-    h2,
-    h3 {
-      color: #1f3b69;
-    }
-    a {
-      color: #4a90e2;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    ul {
-      line-height: 1.6;
-    }
-    /* Fixierte obere Leiste */
-    #topbar {
-      position: fixed;
-      top: 0;
-      right: 0;
-      padding: 1em;
-      background: transparent;
-    }
-    #topbar button {
-      background-color: #bbb;
-      color: black;
-      margin-left: 0.5em;
-    }
-  </style>
-</head>
-<body>
-
-<!-- FIXIERTE LEISTE FÜR EINGELOGGTEN ZUSTAND -->
-<div id="topbar" class="hidden">
-  <button onclick="window.location.href='index.html'">🏠 Zur Startseite</button>
-  <button onclick="logout()">🔒 Logout</button>
-</div>
-
-<!-- LOGIN-FORMULAR -->
-<div id="login" class="login-box">
-  <h2>🔐 Login erforderlich</h2>
-  <p>Bitte gib das Passwort ein, um auf die geschützten Updates zuzugreifen.</p>
-  <input type="password" id="pw" placeholder="Passwort eingeben">
-  <button id="loginBtn">Einloggen</button>
-  <p id="error" style="color: red; display: none;">❌ Falsches Passwort</p>
-</div>
-
-<!-- INHALTE NACH LOGIN -->
-<div id="content" class="updates hidden">
-  <h2>📦 Passwortgeschützte Updates</h2>
-  <p>Hier findest du alle neuen Inhalte, Zusatzmaterialien und Korrekturen.</p>
-
-  <h3>🆕 Update vom 01.08.2025</h3>
-  <ul>
-    <li>🎨 Neue Grafik: <a href="downloads/grundton-abstand-farbig.pdf" target="_blank">grundton-abstand-farbig.pdf</a></li>
-    <li>📄 Bonus-PDF „Zusammenklänge im Überblick“: <a href="downloads/bonus-zusammenklaenge.pdf" target="_blank">bonus-zusammenklaenge.pdf</a></li>
-    <li>▶️ Video: <a href="https://youtube.com/dein-link" target="_blank">Video zu Kapitel 4</a></li>
-  </ul>
-</div>
-
-<script>
-  const correctPassword = "harmony2025";
-
-  function unlock() {
-    document.getElementById("login").style.display = "none";
-    document.getElementById("content").classList.remove("hidden");
-    document.getElementById("topbar").classList.remove("hidden");
-  }
-
-  function logout() {
-    localStorage.removeItem("harmony-keys-auth");
-    location.reload();
-  }
-
-  function checkPassword() {
-    const input = document.getElementById("pw").value;
-    if (input === correctPassword) {
-      localStorage.setItem("harmony-keys-auth", "true");
-      unlock();
-    } else {
-      document.getElementById("error").style.display = "block";
-    }
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    // Falls vorher eingeloggt → automatisch freischalten
-    if (localStorage.getItem("harmony-keys-auth") === "true") {
-      unlock();
-    }
-
-    // Button-Klick
-    document.getElementById("loginBtn").addEventListener("click", checkPassword);
-
-    // Enter-Taste drücken
-    document.getElementById("pw").addEventListener("keyup", function (event) {
-      if (event.key === "Enter") {
-        checkPassword();
+[
+  {
+    "datum": "01.08.2025",
+    "einträge": [
+      {
+        "typ": "pdf",
+        "titel": "🎨 Neue Grafik",
+        "text": "grundton-abstand-farbig.pdf",
+        "link": "downloads/grundton-abstand-farbig.pdf"
+      },
+      {
+        "typ": "pdf",
+        "titel": "📄 Bonus-PDF „Zusammenklänge im Überblick“",
+        "text": "bonus-zusammenklaenge.pdf",
+        "link": "downloads/bonus-zusammenklaenge.pdf"
+      },
+      {
+        "typ": "video",
+        "titel": "▶️ Video",
+        "text": "Video zu Kapitel 4",
+        "link": "https://youtube.com/dein-link"
       }
-    });
-  });
-</script>
-
-</body>
-</html>
+    ]
+  }
+]
