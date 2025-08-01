@@ -80,7 +80,12 @@
     <li>▶️ Video: <a href="https://youtube.com/dein-link" target="_blank">Video zu Kapitel 4</a></li>
   </ul>
 
-  <button class="logout-btn" onclick="logout()">🔒 Logout</button>
+  <!-- Oben rechts fixierter Logout + Zurück-Button -->
+<div id="topbar" class="hidden" style="position: fixed; top: 0; right: 0; padding: 1em;">
+  <button onclick="window.location.href='index.html'" style="margin-right: 1em;">🏠 Zur Startseite</button>
+  <button onclick="logout()">🔒 Logout</button>
+</div>
+
 </div>
 
 <script>
@@ -90,6 +95,11 @@
     document.getElementById("login").style.display = "none";
     document.getElementById("content").classList.remove("hidden");
   }
+function unlock() {
+  loginBox.style.display = "none";
+  contentBox.classList.remove("hidden");
+  document.getElementById("topbar").classList.remove("hidden");
+}
 
   function checkPassword() {
     const input = document.getElementById("pw").value;
