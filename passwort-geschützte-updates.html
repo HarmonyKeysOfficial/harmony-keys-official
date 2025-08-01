@@ -20,11 +20,10 @@
       background-color: white;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    input[type="password"] {
+    input[type="password"], input[type="text"] {
       width: 100%;
       padding: 0.5em;
-      margin-top: 1em;
-      margin-bottom: 1em;
+      margin: 0.5em 0 1em;
       font-size: 1em;
     }
     button {
@@ -37,7 +36,7 @@
       cursor: pointer;
     }
     .updates {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2em auto;
     }
     h2, h3 {
@@ -56,7 +55,29 @@
     .toplinks {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1em;
+      margin-bottom: 1.5em;
+    }
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5em;
       margin-bottom: 1em;
+    }
+    .filter-group button {
+      background-color: #eee;
+      color: #333;
+    }
+    .filter-group button.active {
+      background-color: #4a90e2;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .toplinks {
+        flex-direction: column;
+        align-items: flex-start;
+      }
     }
   </style>
 </head>
@@ -75,13 +96,23 @@
     <a href="https://harmonykeysofficial.github.io/harmony-keys-official/">← Zur Hauptseite</a>
     <button onclick="logout()" style="background-color: #bbb;">🔒 Logout</button>
   </div>
+
   <h2>📦 Passwortgeschützte Updates</h2>
   <p>Hier findest du alle neuen Inhalte, Zusatzmaterialien und Korrekturen.</p>
+
+  <div class="filter-group">
+    <input type="text" id="search" placeholder="🔍 Suche nach Titel oder Beschreibung …">
+    <button onclick="setFilter('all')" id="btn-all" class="active">Alle</button>
+    <button onclick="setFilter('pdf')" id="btn-pdf">📄 PDF</button>
+    <button onclick="setFilter('video')" id="btn-video">▶️ Video</button>
+  </div>
+
   <div id="update-list"></div>
 </div>
 
 <script>
   const correct = "harmony2025";
+  let currentFilter = "all";
 
   function checkPassword() {
     const input = document.getElementById("pw").value;
@@ -104,19 +135,38 @@
     location.reload();
   }
 
+  function setFilter(type) {
+    currentFilter = type;
+    document.querySelectorAll(".filter-group button").forEach(btn => btn.classList.remove("active"));
+    document.getElementById("btn-" + type).classList.add("active");
+    loadUpdates();
+  }
+
   function loadUpdates() {
-    fetch('updates.json?nocache=' + new Date().getTime())
+    const searchQuery = document.getElementById("search").value.toLowerCase();
+
+    fetch("updates.json?t=" + new Date().getTime()) // Cache-Busting
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById("update-list");
+        container.innerHTML = "";
+
         data.forEach(update => {
-          const block = document.createElement("div");
-          block.innerHTML = `<h3>🆕 Update vom ${update.datum}</h3><ul>` +
-            update.einträge.map(item => `
-              <li>${item.titel}: <a href="${item.link}" target="_blank">${item.text}</a></li>
-            `).join("") +
-            "</ul>";
-          container.appendChild(block);
+          const matchingItems = update.einträge.filter(item => {
+            const matchesType = (currentFilter === "all" || item.typ === currentFilter);
+            const matchesSearch = (item.titel + item.text).toLowerCase().includes(searchQuery);
+            return matchesType && matchesSearch;
+          });
+
+          if (matchingItems.length > 0) {
+            const block = document.createElement("div");
+            block.innerHTML = `<h3>🆕 Update vom ${update.datum}</h3><ul>` +
+              matchingItems.map(item => `
+                <li>${item.titel}: <a href="${item.link}" target="_blank">${item.text}</a></li>
+              `).join("") +
+              "</ul>";
+            container.appendChild(block);
+          }
         });
       })
       .catch(err => {
@@ -125,14 +175,12 @@
       });
   }
 
-  // Enter-Taste aktivieren
   document.getElementById("pw").addEventListener("keyup", function(event) {
-    if (event.key === "Enter") {
-      checkPassword();
-    }
+    if (event.key === "Enter") checkPassword();
   });
 
-  // Beim Start prüfen
+  document.getElementById("search").addEventListener("input", loadUpdates);
+
   document.addEventListener("DOMContentLoaded", function () {
     if (localStorage.getItem("harmony-keys-auth") === "true") {
       unlock();
