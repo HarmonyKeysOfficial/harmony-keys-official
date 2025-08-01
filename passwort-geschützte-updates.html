@@ -78,24 +78,29 @@
 </div>
 
 <script>
-  function checkPassword() {
-    const input = document.getElementById("pw").value;
-    const correct = "harmony2025";
-    if (input === correct) {
-      document.getElementById("login").style.display = "none";
-      document.getElementById("content").classList.remove("hidden");
-    } else {
-      document.getElementById("error").style.display = "block";
+  document.addEventListener("DOMContentLoaded", function () {
+    function checkPassword() {
+      const input = document.getElementById("pw").value;
+      const correct = "harmony2025";
+      if (input === correct) {
+        document.getElementById("login").style.display = "none";
+        document.getElementById("content").classList.remove("hidden");
+      } else {
+        document.getElementById("error").style.display = "block";
+      }
     }
-  }
 
-  // ENTER-Taste aktivieren
-  document.getElementById("pw").addEventListener("keyup", function(event) {
-    if (event.key === "Enter") {
-      checkPassword();
-    }
+    document.getElementById("pw").addEventListener("keyup", function(event) {
+      if (event.key === "Enter") {
+        checkPassword();
+      }
+    });
+
+    // Auch den Button nochmal absichern
+    document.querySelector("button").addEventListener("click", checkPassword);
   });
 </script>
+
 
 
 </body>
