@@ -15,7 +15,7 @@
 
 # 🎹 Harmony Keys – Jeder kann improvisieren am Klavier
 
-[Startseite](index.md) | [📚 Themenübersicht](themenuebersicht.md) | [🎬 Videos](videos.md) | [📘 Buch kaufen](#buch-kaufen)
+[Startseite](index.md) | [📚 Themenübersicht](themenuebersicht.md) | [🎬 Videos](videos.md) | [📘 Buch kaufen](#buch-kaufen) | [🔐 Login](bonus.html)
 
 ---
 
