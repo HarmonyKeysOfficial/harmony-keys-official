@@ -53,9 +53,10 @@
     ul {
       line-height: 1.6;
     }
-    .toplink {
-      text-align: right;
-      margin-bottom: -1.5em;
+    .toplinks {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1em;
     }
   </style>
 </head>
@@ -70,7 +71,10 @@
 </div>
 
 <div id="content" class="updates hidden">
-  <div class="toplink"><a href="https://harmonykeysofficial.github.io/harmony-keys-official/">Zur Hauptseite</a>
+  <div class="toplinks">
+    <a href="https://harmonykeysofficial.github.io/harmony-keys-official/">← Zur Hauptseite</a>
+    <button onclick="logout()" style="background-color: #bbb;">🔒 Logout</button>
+  </div>
   <h2>📦 Passwortgeschützte Updates</h2>
   <p>Hier findest du alle neuen Inhalte, Zusatzmaterialien und Korrekturen.</p>
   <div id="update-list"></div>
@@ -93,6 +97,11 @@
     document.getElementById("login").style.display = "none";
     document.getElementById("content").classList.remove("hidden");
     loadUpdates();
+  }
+
+  function logout() {
+    localStorage.removeItem("harmony-keys-auth");
+    location.reload();
   }
 
   function loadUpdates() {
