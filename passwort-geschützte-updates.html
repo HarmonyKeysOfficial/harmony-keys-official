@@ -36,6 +36,10 @@
       border-radius: 6px;
       cursor: pointer;
     }
+    .logout-btn {
+      background-color: #bbb;
+      margin-top: 2em;
+    }
     .updates {
       max-width: 800px;
       margin: 2em auto;
@@ -61,67 +65,68 @@
   <h2>🔐 Login erforderlich</h2>
   <p>Bitte gib das Passwort ein, um auf die geschützten Updates zuzugreifen.</p>
   <input type="password" id="pw" placeholder="Passwort eingeben">
-  <button onclick="checkPassword()">Einloggen</button>
+  <button id="login-btn">Einloggen</button>
   <p id="error" style="color: red; display: none;">❌ Falsches Passwort</p>
- 
-
 </div>
 
 <div id="content" class="updates hidden">
   <h2>📦 Passwortgeschützte Updates</h2>
   <p>Hier findest du alle neuen Inhalte, Zusatzmaterialien und Korrekturen.</p>
-<button onclick="logout()" style="margin-top: 2em; background-color: #bbb;">🔒 Logout</button>
+
   <h3>🆕 Update vom 01.08.2025</h3>
   <ul>
     <li>🎨 Neue Grafik: <a href="downloads/grundton-abstand-farbig.pdf" target="_blank">grundton-abstand-farbig.pdf</a></li>
     <li>📄 Bonus-PDF „Zusammenklänge im Überblick“: <a href="downloads/bonus-zusammenklaenge.pdf" target="_blank">bonus-zusammenklaenge.pdf</a></li>
     <li>▶️ Video: <a href="https://youtube.com/dein-link" target="_blank">Video zu Kapitel 4</a></li>
   </ul>
+
+  <button class="logout-btn" onclick="logout()">🔒 Logout</button>
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const correct = "harmony2025";
-    const pwInput = document.getElementById("pw");
-    const loginBox = document.getElementById("login");
-    const contentBox = document.getElementById("content");
+  const correct = "harmony2025";
+
+  function unlock() {
+    document.getElementById("login").style.display = "none";
+    document.getElementById("content").classList.remove("hidden");
+  }
+
+  function checkPassword() {
+    const input = document.getElementById("pw").value;
     const errorMsg = document.getElementById("error");
 
-    function unlock() {
-      loginBox.style.display = "none";
-      contentBox.classList.remove("hidden");
+    if (input === correct) {
+      localStorage.setItem("harmony-keys-auth", "true");
+      unlock();
+    } else {
+      errorMsg.style.display = "block";
     }
+  }
 
-    function checkPassword() {
-      const input = pwInput.value;
-      if (input === correct) {
-        localStorage.setItem("harmony-keys-auth", "true");
-        unlock();
-      } else {
-        errorMsg.style.display = "block";
-      }
-    }
+  function logout() {
+    localStorage.removeItem("harmony-keys-auth");
+    location.reload();
+  }
 
-    // Sofort prüfen, ob bereits eingeloggt
+  document.addEventListener("DOMContentLoaded", function () {
+    const pwInput = document.getElementById("pw");
+    const loginBtn = document.getElementById("login-btn");
+
+    // Automatisch einloggen, wenn schon freigeschaltet
     if (localStorage.getItem("harmony-keys-auth") === "true") {
       unlock();
     }
 
+    // ENTER-Taste erlaubt
     pwInput.addEventListener("keyup", function(event) {
       if (event.key === "Enter") {
         checkPassword();
-        function logout() {
-  localStorage.removeItem("harmony-keys-auth");
-  location.reload();
-}
-
       }
     });
 
-    document.querySelector("button").addEventListener("click", checkPassword);
+    loginBtn.addEventListener("click", checkPassword);
   });
 </script>
-
 
 </body>
 </html>
