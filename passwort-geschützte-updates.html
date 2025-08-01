@@ -105,7 +105,7 @@
   }
 
   function loadUpdates() {
-    fetch('updates.json')
+    fetch('updates.json?nocache=' + new Date().getTime())
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById("update-list");
